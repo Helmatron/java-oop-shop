@@ -1,6 +1,6 @@
 package org.lessons.java.shop;
 
-import java.util.Random;
+// import java.util.Random;
 import java.util.Scanner;
 
 public class Prodotto {
@@ -11,8 +11,7 @@ public class Prodotto {
 	private double price;
 	private static int IVA;
 
-	public Prodotto(int code, String name, String description, double price) {
-		this.CODE = code;
+	public Prodotto(String name, String description, double price) {
 		this.name = name;
 		this.description = description;
 		this.price = price;
